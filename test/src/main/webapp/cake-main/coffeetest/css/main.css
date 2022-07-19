@@ -1,0 +1,53 @@
+#main {
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+/* 
+.kakao_ad {
+  width: 320px;
+  margin: 0 auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+ */
+.start-wrap {
+  margin: 0 20% 0 26.5%;
+  width: 40%;
+}
+.start {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(48, 23, 6);
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 32px;
+  font-size: 2rem;
+  animation: fade-in 0.25s ease-out 0.95s both,
+    going-down 0.25s ease-out 0.95s both, start-flicker 1.5s infinite;
+  cursor: pointer;
+  margin-left: 10%;
+}
+.start:hover,
+.start:focus {
+  animation-play-state: paused;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+.start:active {
+  animation-play-state: running;
+}
