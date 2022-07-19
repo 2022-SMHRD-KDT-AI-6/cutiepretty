@@ -1,0 +1,147 @@
+#result {
+  display: none;
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#shareResult {
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultname {
+  font-size: 26px;
+}
+
+.resultDesc {
+  font-size: 20px;
+}
+
+.kakao {
+  color: #fee500;
+  background-color: black;
+  font-size: 30px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: #fee500;
+  color: black;
+}
+
+.gohome {
+  color: white;
+  background-color: brown;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.Urlcopy {
+  border-color: #1a7cff;
+}
+
+.Urlcopy:hover {
+  background: #1a7cff;
+}
+.Insta {
+  border-color: #dd2a7b;
+}
+
+.Insta:hover {
+  background: #dd2a7b;
+}
+
+.tw {
+  background-image: url('../img/tw.svg');
+  /* 
+  자료 출처
+  http://www.vectorico.com/twitter-logo-white-on-blue/
+  */
+}
+.fb {
+  background-image: url('../img/fb.svg');
+  /* 
+  자료 출처
+  https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg
+  */
+}
+.nv {
+  background-image: url('../img/naver.png');
+  /*
+  자료 출처
+  https://www.facebook.com/184030231730640/photos/1175959155871071/
+  */
+}
+.band {
+  background-image: url('../img/band.png');
+  /*
+  자료 출처
+  https://upload.wikimedia.org/wikipedia/commons/3/30/2._BAND_Icon.png
+  */
+}
+
+.hash {
+  padding: 15px 7.5% 0;
+  color: rgba(0, 135, 245);
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.hash {
+  padding: 20px 7.5% 0;
+}
+
+.hash {
+  padding: 25px 7.5% 0;
+  font-size: 17.6px;
+  font-size: 1.1rem;
+}
+.hash {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+}
+
+#share-box {
+  box-sizing: border-box;
+  margin: 25px 10% 30px 10%;
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  border-radius: 40px;
+  background: rgb(231, 20, 108);
+}
+#share-box span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+}
+#share-box {
+  margin: 25px 20% 30px 20%;
+  width: 60%;
+}
+#share-box {
+  margin: 25px 30% 30px 30%;
+  width: 40%;
+}
+
+#share-box {
+  margin: 25px 35% 30px 35%;
+  width: 30%;
+}
